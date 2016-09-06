@@ -649,7 +649,7 @@ class Application(Tkinter.Frame):
                 rect[0] + rect[2],
                 rect[1] + rect[3],
                 outline='green',
-                fill='gray',
+                fill='',
                 stipple='@trans.xbm',
                 width=2,
                 tag='rect'
@@ -678,7 +678,7 @@ class Application(Tkinter.Frame):
             int(y1 * PREVIEW_SIZE) + 1,
             int(x2 * PREVIEW_SIZE),
             int(y2 * PREVIEW_SIZE),
-            outline='lime',
+            outline='green',
             width=2,
             tag='preview_rect'
         )

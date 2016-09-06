@@ -1,6 +1,7 @@
 *.pyc
 .idea
 .DS_Store
+./trial_data*
 build
 dist
 *.egg-info
